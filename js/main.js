@@ -13,5 +13,17 @@ function handleNavClick() {
 	});
 };
 
+function handleProjectsClick() {
+
+	$('#js-projects-button').click(function(){
+		console.log('projects button clicked');
+		$('.js-nav-button').removeClass('active-button');
+		$('#nav-projects-button').addClass('active-button');
+		$(".content-page").removeClass('active-tab');
+		$('.projects').addClass('active-tab');
+	});
+};
+
 handleNavClick();
+handleProjectsClick();
 

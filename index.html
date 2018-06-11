@@ -26,9 +26,9 @@
   <header>
     <nav>
       <ul>
-        <li><button class='js-nav-button active-button' data-tab="sean-cody">Sean Cody</button></li>
-        <li><button class='js-nav-button' data-tab="projects">Projects</button></li>
-        <li><button class='js-nav-button' data-tab="about">About</button></li>
+        <li><button id="nav-sean-cody-button" class='js-nav-button active-button' data-tab="sean-cody">Sean Cody</button></li>
+        <li><button id="nav-projects-button" class='js-nav-button' data-tab="projects">Projects</button></li>
+        <li><button id="nav-about-button" class='js-nav-button' data-tab="about">About</button></li>
       </ul>
     </nav>
   </header>
@@ -44,8 +44,8 @@
 
         <br>
 
-        <button>Email Me</button>
-        <button>View Projects</button>
+        <a href='mailto:stoicwebdev@gmail.com'><button>Email Me</button></a>
+        <button id="js-projects-button">View Projects</button>
       </div>
 
       <div class="projects content-page" data-tab="projects">
