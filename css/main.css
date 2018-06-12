@@ -179,9 +179,19 @@ button:hover {
     font-weight: bold;
 }
 
-.hero-img-wrapper {
+.hero-img-wrapper, .project-img-wrapper {
     text-align: center;
 
+}
+
+.project-wrapper {
+    background-color: #F0F0F0;
+    border-radius: 5px;
+}
+
+.project-img {
+    max-width: 80%;
+    padding-top: 30px;
 }
 
 .hero-img {
@@ -189,7 +199,18 @@ button:hover {
     max-height: 200px;
 }
 
+.project-info-wrapper {
+    padding: 30px;
+}
 
+.project-info-wrapper h3 {
+    font-size: 1.4em;
+}
+
+.fa, .fab {
+    font-size: 30px;
+    padding-right: 10px;
+}
 
 
 
