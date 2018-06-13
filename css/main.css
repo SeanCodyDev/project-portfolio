@@ -99,14 +99,20 @@ textarea {
 
 /* COLOR PALETTE */
 /* GRAY: #303030 */
-/* MAROON: 620C0C */
+/* MAROON: #620C0C */
+
+html, body {
+    height: 100%;
+}
 
 body {
     font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
-    height: 100%;
+    flex: 1 0 auto;
 }
 
 
@@ -119,14 +125,12 @@ main {
     display: block;
 }
 
-.content-wrapper {
-    height: calc(100vh - 75px);
-}
 
 footer {
     padding: 15px;
     text-align: center;
     background-color: #F0F0F0;
+    flex-shrink: 0;
 }
 
 .content-wrapper p>span {
@@ -134,9 +138,14 @@ footer {
 }
 
 nav ul {
+    width: 80%;
     padding: 0;
     display: flex;
     justify-content: space-around;
+    margin: auto;
+    margin-top: 16px;
+    border-bottom: 1px solid #303030;
+    padding-bottom: 12px;
 
 }
 
@@ -208,6 +217,16 @@ button:hover {
     font-size: 1.4em;
 }
 
+.about-info-wrapper a {
+    color: #620C0C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about-info-wrapper a:hover{
+    text-decoration: underline;
+}
+
 .fa, .fab, .fas {
     font-size: 30px;
     padding-right: 10px;
@@ -231,7 +250,9 @@ button:hover {
 
 }
 
-
+footer p {
+    font-size: 0.8em;
+}
 
 
 
