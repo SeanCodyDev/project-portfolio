@@ -175,6 +175,9 @@ button {
     width: 130px;
     border-radius: 5px;
     margin-right: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+
 }
 
 button:hover {
@@ -269,6 +272,7 @@ footer p {
     font-size: 0.8em;
 }
 
+
 @media only screen and (min-width: 720px) {
 
     main {
@@ -309,6 +313,10 @@ footer p {
         margin-left: 25%;
         margin-top: 0;
 
+    }
+
+    button {
+        width: 140px;
     }
 
     footer {
