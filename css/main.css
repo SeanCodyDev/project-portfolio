@@ -273,6 +273,16 @@ footer p {
     font-size: 0.8em;
 }
 
+.construction {
+    background-color: #999999;
+    text-decoration: line-through;
+
+}
+
+.construction:hover {
+    text-decoration: line-through;
+}
+
 
 @media only screen and (min-width: 720px) {
 
